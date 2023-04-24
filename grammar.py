@@ -8,7 +8,7 @@ def indexReturn(list,a):
             temp.append(i)
     return temp
 
-class gramm:
+class grammar:
 
     def __init__(self, Vn, Vt, P):
         self.Vn = Vn
