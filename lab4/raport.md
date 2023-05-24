@@ -131,14 +131,12 @@ self.Vn.remove(key)
 return  self.p
 ```
 ## Conclusion
-In conclusion, Chomsky Normal Form (CNF) is a significant concept in formal language theory and grammatical analysis. It provides a standardized and simplified representation of context-free grammars, making them easier to analyze and manipulate.
+In conclusion, Chomsky Normal Form (CNF) is a specific form used to represent context-free grammars (CFGs). It is named after the linguist Noam Chomsky, who introduced the concept. CNF has several important properties that make it useful for various applications in theoretical computer science and natural language processing.
 
-Throughout this report, we have explored the key properties and transformations involved in converting context-free grammars to Chomsky Normal Form. We have discussed the requirements of CNF, which restrict productions to only two types: unit productions and binary productions. By eliminating ε-productions, useless symbols, and transforming long productions into shorter ones, CNF helps in achieving a more concise and manageable grammar representation.
+CNF imposes strict restrictions on the production rules of a CFG. In CNF, each production rule is either of the form A → BC, where A, B, and C are non-terminal symbols, or A → a, where A is a non-terminal symbol and a is a terminal symbol. In other words, production rules in CNF are either binary (two non-terminals) or unary (one non-terminal and one terminal).
 
-Furthermore, we have examined the algorithmic steps and techniques used to convert context-free grammars into CNF. These include the elimination of ε-productions, unit productions, and the conversion of long productions into binary productions. We have also discussed the significance of augmenting the original grammar to ensure that it generates a unique start symbol.
+The primary benefit of converting a CFG into Chomsky Normal Form is that it simplifies the analysis and manipulation of the grammar. CNF has well-defined properties and algorithms that can be applied for tasks such as parsing, grammar transformation, and language recognition.
 
-Moreover, we have highlighted the benefits and applications of Chomsky Normal Form. By transforming grammars into CNF, we gain insights into their structure and properties, facilitating the analysis and understanding of language patterns. CNF is particularly useful in applications such as natural language processing, compiler design, and parsing algorithms, where the efficiency and accuracy of grammar processing are crucial.
+By transforming a CFG into CNF, we can guarantee certain properties, such as unambiguous parsing and efficient parsing algorithms like the CYK algorithm. CNF also enables formal analysis and comparison of grammars, facilitating the study of language complexity and theoretical aspects of formal languages.
 
-However, it is important to note that while Chomsky Normal Form provides a standardized and simplified representation, it may not always be the most efficient or practical form for certain grammars. In some cases, other representations such as extended Chomsky Normal Form or variations of CNF may be more suitable, depending on the specific requirements and constraints of the problem at hand.
-
-In conclusion, Chomsky Normal Form is a valuable tool for analyzing and manipulating context-free grammars. Its systematic transformations provide a structured and concise representation, aiding in the comprehension and processing of languages. While CNF serves as a fundamental concept, it is essential to consider other grammar forms and variations based on the specific needs and context of the application.
+In summary, Chomsky Normal Form provides a structured and simplified representation of context-free grammars. Its properties and algorithms make it a valuable tool in the field of formal language theory and computational linguistics, aiding in parsing, grammar manipulation, and language analysis.
