@@ -16,7 +16,6 @@ The class new 'Lexer' was created, that opens a text file where the code in the 
 
 
 The particular code that will be used, looks like this:
-**Variant 22**
 ```
 BEGIN
 v
