@@ -18,19 +18,20 @@
 ## Implementation description
 A Python dictionary, the type of data that will be mainly used, the grammar looks like this:
 ```
-#Defining a dictionary representing a context-free grammar
+# Defining a dictionary representing a context-free grammar
 p = {
-    'S' : ['dB', 'A'],
-    'A' : ['d', 'dS', 'aAdAB'],
-    'B' : ['aC', 'aS', 'AC'],
-    'C' : [''],
-    'E' : ['AS']
+    'S' : ['aB', 'bA' , 'A'],
+    'A' : ['B', 'AS', 'bBAB' , 'b'],
+    'B' : ['b', 'bS', 'aD', ''],
+    'C' : ['Ba'],
+    'D' : ['AA']
 }
 
 # Defining the non-terminals and terminals of the grammar
-vn = ['S', 'A', 'B', 'C', 'E']
-vt = ['a', 'd']
+vn = ['S', 'A', 'B', 'C', 'D']
+vt = ['a', 'b']
 a = vt
+
 ```
 Unit tests will be implemented for each of the methods responsible for each step in the CNF conversion. For unit tests, the 'unittest' module in python will be used.
 
