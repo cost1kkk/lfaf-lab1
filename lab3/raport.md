@@ -8,7 +8,7 @@ Def:
 Lexical Analysis and Scanners: for the purposes of this laboratory, lexical analysis means the transformation of a sequence of characters into a series of lexical tokens. The program/algorithm that does this is called the lexer (or scanner), and it is the main character of this here laboratory.
 
 ## Screenshots
-![Rezults](/images/img2.png "Rezults")
+![Results](/lab3/img2.png "Results")
 
 ## Implementation description
 
