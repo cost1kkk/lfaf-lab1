@@ -1,5 +1,5 @@
 
-# Intro to formal languages. Regular grammars. Finite Automata.
+# Lexer & Scanner
 ### Course: Formal Languages & Finite Automata
 ### Author: Baxanean Constantin FAF213
 ### Variant: 4
